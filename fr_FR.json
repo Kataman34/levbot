@@ -1,0 +1,29 @@
+{
+    "test": "teste exécuté avec succès !",
+
+    "helpRandomMessage1": "Soutiens nous ! Entre la commande `${prefix}support` et reçois tout de suite tes avantages:\n> +5% d'xp en plus sur tous les serveurs\n> le rôle Fidèle sur le [support](${support}).",
+    "helpRandomMessage2" : "Un problème avec le bot ? Demande de l'aide sur le [support](${support}). Réponse en moins de 5 minutes !",
+    "helpRandomMessage3": "Vote pour le bot sur ~~top.gg~~ et gagne +10% d'xp en plus pendant 24h ! (soon)",
+    "helpLink": "[Invite moi](https://discordapp.com/oauth2/authorize?client_id=706541613056393256&scope=bot&permissions=805620801) - [Mon support](${support}) - [Mon site web](https://5eda4a99e0763.site123.me/) - ~~Vote pour moi~~ - [Ma documentation](https://creeps-mc-fr.gitbook.io/levbot-doc/)",
+    "helpTitleConfig": "Config",
+    "helpTitleGeneral": "Général",
+    "helpTitleGestion": "Gestion",
+
+    "rank0Lvl": "non classé",
+    "rankError": "n'est pas enregistré dans ma base de données.",
+    "rankTitle": "Profil de ${user}",
+    "rankLvl": "Niveau",
+
+    "ranksError" : "${emojiNope} | Aucun rank n'a été défini.",
+    "ranksTitle" : "Les ranks de ${message.guild.name}",
+
+    "botinfoTitle": "Informations sur ${client.user.username}",
+    "botinfoVersion": "Version",
+    "botinfoDev": "Développeur",
+    "botinfoServ": "Serveurs",
+    "botinfoUser": "Utilisateurs",
+
+    "lbError": "${emojiNope} | Aucune personne n'est classé sur ce serveur.\nPour être classé, vous devez être au niveau 1.",
+    "lbTitle": "Classement de ${message.guild.name}"
+
+}
