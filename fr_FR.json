@@ -1,10 +1,14 @@
 {
     "test": "teste exécuté avec succès !",
+    "ping": "Hey! Tu m'as trouvé Oo\nSur ce serveur, mon prefix est ${prefix}",
 
+    "lvlUpMsg": "Bravo {user} :clap: Tu passes au niveau **{level}**!\nIl te faut `{xp}` XP pour passer au niveau suivant.",
+
+    "helpTitle": "Liste des commandes",
     "helpRandomMessage1": "Soutiens nous ! Entre la commande `${prefix}support` et reçois tout de suite tes avantages:\n> +5% d'xp en plus sur tous les serveurs\n> le rôle Fidèle sur le [support](${support}).",
     "helpRandomMessage2" : "Un problème avec le bot ? Demande de l'aide sur le [support](${support}). Réponse en moins de 5 minutes !",
-    "helpRandomMessage3": "Vote pour le bot sur ~~top.gg~~ et gagne +10% d'xp en plus pendant 24h ! (soon)",
-    "helpLink": "[Invite moi](https://discordapp.com/oauth2/authorize?client_id=706541613056393256&scope=bot&permissions=805620801) - [Mon support](${support}) - [Mon site web](https://5eda4a99e0763.site123.me/) - ~~Vote pour moi~~ - [Ma documentation](https://creeps-mc-fr.gitbook.io/levbot-doc/)",
+    "helpRandomMessage3": "Attention quand vous configurer vos rank, en moyenne, vous allez monter en niveau 2 à 3 fois plus vite qu'avec un autre bot.",
+    "helpLink": "[Invite moi](https://discordapp.com/oauth2/authorize?client_id=706541613056393256&scope=bot&permissions=805620801) - [Mon support](${support}) - [Mon site web](https://5eda4a99e0763.site123.me/) - [Vote pour moi](https://top.gg/bot/706541613056393256/vote)",
     "helpTitleConfig": "Config",
     "helpTitleGeneral": "Général",
     "helpTitleGestion": "Gestion",
@@ -24,6 +28,90 @@
     "botinfoUser": "Utilisateurs",
 
     "lbError": "${emojiNope} | Aucune personne n'est classé sur ce serveur.\nPour être classé, vous devez être au niveau 1.",
-    "lbTitle": "Classement de ${message.guild.name}"
+    "lbTitle": "Classement de ${message.guild.name}",
+    "lbVous": "Votre position:",
+
+    "adminPermError": "${emojiNope} | Vous devez avoir la permission `ADMINISTRATOR`.",
+    "dbUserExistError": "n'est pas enregistré sur ma base de données.",
+    "botMsgPermErr": "${emojiNope} | Je dois avoir la permission `MANAGE_MESSAGES`.",
+    "botMsgPermErr2": "${emojiNope} | Je dois avoir la permission `ADD_REACTIONS`.",
+    "botMsgPermErr3": "${emojiNope} | Je dois avoir la permission `USE_EXTERNAL_EMOJIS`.",
+    "botPermRoleErr": "${emojiNope} | Je dois avoir la permission `MANAGE_ROLES`.",
+    "dbErr": "${emojiYes} | Ajout de votre serveur sur ma base de données !", 
+
+    "cmsTitle": "Commande ${command}",
+
+    "GestionNiveau": "niveau à",
+    "GestionXP": "XP à",
+    "giveGive": "ajout de",
+    "removeRemove": "retrait de",
+
+    "giveDescription": "**Donner de l'xp ou des niveaux à un membre:**",
+    "removeDescription": "**Retirer de l'xp ou des niveaux à un membre:**",
+    "setDescription": "**Définir le nombre d'xp ou le niveau d'un membre:**",
+
+    "resetConfirTitle": "Confirmation ...",
+    "resetConfirText": "**Voulez vous vraiment remettre à 0 l'xp et le niveau de tous les membres de ce serveur ?**\nAnnulation automatique dans une minute.",
+    "resetConfirm": "Reset confirmé !",
+    "resetErrorTitle": "Reset échoué !",
+    "resetErrorText": "Aucun membre de ce serveur n'était enregistré sur ma base de donnée.",
+    "resetannulé": "Reset annulé !",
+
+    "setPrefixDescription": "${emojiYes} » Définir un nouveau prefix.\n<:what:725256374434660372> » Remettre le prefix par défault.\n${emojiNope} » Annuler.",
+    "setPrefixSucces": "${emojiYes} | Le nouveau prefixe du bot est `${args[0]}`",
+    "setPrefixSize": "Votre prefix ne peut pas faire plus de 2 caractéres.",
+    "setPrefixTimeErr" : "Aucune réponse en une minute.",
+    "setPrefixStop" : "Annulé !",
+    "setPrefixnew" : "Entrez mon nouveau prefix ci-dessous.",
+    "setPrefixSuccesTitle" : "Prefix défini !",
+    "setPrefixSuccesTitle1" : "Ancien prefix",
+    "setPrefixSuccesTitle2" : "Nouveau prefix",
+    "setPrefixmeme" : "est déja le prefix actuel.",
+
+    "setMsgTitle": "Configuration du message de level up:",
+    "setMsgdesc" : ":green_circle: » Activer les messages.\n:red_circle: » Désactiver les messages.\n:purple_circle: » Remettre le message par défault.\n:orange_circle: » Changer le message.\n:blue_circle: » Définir l'emplacement des messages.\n:octagonal_sign: » Annuler.",
+    "msgOn" : "Les messages sont activés !",
+    "msgDejaOn" : "Les messages sont déja activés !",    
+    "msgOff" : "Les messages sont désactivés !",
+    "msgDejaOff" : "Les messages sont déja désactivés !",
+    "msgDejaReset": "Le message actuel est déja le message par défault.",
+    "lastMsg": "Ancien message",
+    "newMsg": "Nouveau message",
+    "setmsgSucces": "Message défini !",
+    "setMsgtoSendTitle": "Définir l'emplacement des messages.",
+    "setMsgtoSendText": ":green_circle: » Dans ce salon.\n:red_circle: » En message privé.\n:blue_circle: » A la suite.\n:octagonal_sign: » Annuler.",
+    "msgDejaSendHere": "Ceci est déjà l'emplacement actuel.",
+    "lastLieu": "Ancien emplacement",
+    "newLieu": "Nouveau emplacement",
+    "msgSuccesLieu": "Emplacement défini !",
+    "setNewMsg": "Entrez le nouveau message ci-dessous.",
+    "listVarTitle": "Voici les varriables que vous pouvez utiliser dans le message:",
+    "setMsgMeme": "Ce message est déjà le message actuel.",
+    "upChan1": "A la suite.",
+    "upChan2": "En message privé.",
+    "upChan3": "Dans le salon",
+
+    "setRankTitl": "Configurer les ranks du serveur:",
+    "setRankDesc": ":green_circle: » Définir un rôle que le bot donne à un certain niveau.\n:red_circle: » Supprimer un rank.\n:blue_circle: » Définir un rôle que le bot donne au premier du classement.\n:octagonal_sign: » Annuler.",
+    "setRankWaitLvLTitle": "Écrivez ci-dessous le niveau nécéssaire pour obtenir le rôle.",
+    "setRankWaitLvLDesc": "Écrivez stop pour annuler.",
+    "setRankErrDesc": "Les données saisies sont incorecte.",
+    "setRankWaitRole": "Spécifiez ci-dessous le rôle de ce rank.",
+    "setRankErrRoleExist": "Ce rôle n'existe pas.",
+    "addRankSet": "Rank ajouté !",
+    "addRankModif": "Rank modifié !",
+    "addRankText1": "**Niveau requis:**",
+    "addRankText2": "**Rôle:**",
+    "addRankErr": "Je ne peux pas donner ce rôle. Il est surement au dessus du mien.",
+
+    "removeRankDesc": "**Supprimer un rank:**\n```${prefix}${command} [rôle]```",
+    "removeRankErr": "Ce rank n'existe pas.",
+    "removeRankSucces": "Le rank a été supprimé.",
+
+    "setLangTitle": "Définir la langue du bot:",
+    "setLangText": ":green_circle: » Français.\n:red_circle: » English.\n:blue_circle: » русский.\n:octagonal_sign: » Annuler.",
+    "setLangErr": "Cette langue est déjà la langue actuel du bot.",
+    "setLangSuccesTitle" : "Langue configuré !"
+
 
 }
